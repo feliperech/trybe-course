@@ -7,4 +7,4 @@ O DOM é uma ferramenta que permite a interpretação do HTML e XML pelo browser
 
     getElementById = Filtra elementos pela ID, permitindo manipular um ÚNICO elemento, visto que cada ID tem o seu
     getElementByClass = Filtra elementos pelas Classes, gerando uma LISTA de elementos que conteḿ todas as Classes
-    getElementByName = 
+    getElementByTagName = Retorna também uma lista de elementos. Filtra elementos pela tag
