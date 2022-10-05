@@ -1,0 +1,6 @@
+TEORIA SOBRE O DOM - MÓDULO 05, DIA 01
+
+*******************************Teoria sobre o DOM************************************
+O DOM é uma ferramenta que permite a interpretação do HTML e XML pelo browser e a integração do HTML com JS.
+    Ele cria um objeto quando o HTML é lido, de forma que possa armazenar acessos para os elementos.
+    O intuito do DOM é permitir, via código, o acesso aos elementos da página de forma que possamos manipulá-los.
