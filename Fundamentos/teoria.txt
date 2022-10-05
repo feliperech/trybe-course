@@ -8,3 +8,22 @@ O DOM é uma ferramenta que permite a interpretação do HTML e XML pelo browser
     getElementById = Filtra elementos pela ID, permitindo manipular um ÚNICO elemento, visto que cada ID tem o seu
     getElementByClass = Filtra elementos pelas Classes, gerando uma LISTA de elementos que conteḿ todas as Classes
     getElementByTagName = Retorna também uma lista de elementos. Filtra elementos pela tag
+
+*******************************Teoria sobre o querySelector************************************
+document.querySelector
+    Retorna apenas um elemento
+    Permite especificar uma regra para realizar a seleção de um elemento
+    Retorna apenas 1 elemento selecionado
+    document.querySelector ("#buscaID"); // REALIZAR A BUSCA POR UM ID
+    document.querySelector ("p"); //retorna o PRIEMIRO elemento que ele encontra. No caso, o primeiro Parágrafo
+    document.querySelector (".pilotos-sem-titulo p"); //INDICA PARÁGRAFO FILHO pilotos-sem-titulo
+    document.querySelector (".piloto-f1-atual"); //RETORNA O PRIMEIRO de classes 
+    document.querySelector (".pilotos-sem-titulo .piloto-fi-atual"); //INDICA PARÁGRAFO FILHO pilotos-sem-titulo
+
+    *******************************Teoria sobre o querySelectorAll************************************
+
+    document.querySelectorAll();
+
+    Esse método de usar o querySelector permite retornar uma lista contendo todos os elementos de determinado parametro
+    Trabalha com seletores CSS
+    Trabalha mais flexífvel que getElementByClassName e getElementByTagName
