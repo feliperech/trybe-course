@@ -1,0 +1,9 @@
+O campo input pode receber vários tipos de propriedades e comandos
+
+    type: indica o tipo de comando que está sendo recebido
+    placeholder: Texto abaixo do item que indica o que deve ser feito.
+    required: deixa algum campo obrigatório.
+    value: deixa um campo já preenchido.
+    name: nome do input
+    id: permite a utilização de ID 
+    <label

@@ -10,9 +10,31 @@
     <!--Aula sobre formulário em HTML e CSS-->
 
     <h1> FOMULÁRIO </h1>
-    <form action="" method=""> 
-        <!--action indica para onde os dados serão enviados e armazenados. Pode ser outro arquivo ou HTML-->
+    <form action="" method="GET"> 
+        <!--ACTION indica para onde os dados serão enviados e armazenados. Pode ser outro arquivo ou HTML-->
         <!--METHOD indica o método de envio de dados. GET envia via URL e POST envia de forma mais anônima-->
+       <label for="input-one">Digite seu nome </label> <!--Legenda para o input, conectada via ID-->
+        <input type="text" placeholder="Digite aqui!"
+         required name="texto"  value="Valor Inicial"
+         id="input-one"> <!--Indica o tipo de entrada de dados do formulário-->
+         <button type="submit">Enviar</button> <!--SUBMIT submete o envio para algum lugar-->
+        <br>
+        <br>
+        <textarea name="" id="text-arera" rows="10" cols="100"> Texto Pré-estabelecido </textarea> <!--Serve para criar um campo de digitação de tamanho personalizado-->
+        <br>
+        <input type="checkbox" value= "fut" name="Lista de Selecao" id="sport-1" checked> Futebol <!--checkbox cria caixa de seleção-->
+        <input type="checkbox" value= "vol" name="Lista de Selecao" id="sport-2" checked> Volei
+        <input type="checkbox" value= "pet" name="Lista de Selecao" id="sport-3" checked> Peteca
+        <input type="checkbox" value= "bas" name="Lista de Selecao" id="sport-4" checked> Basquete
+    <br>
+    <br>
+        <label for="hub1"> <input type="radio" id="hub1" name="hub" value="sp"> São Paulo</label>
+        <label for="hub2"> <input type="radio" id="hub2" name="hub" value="pr"> Paraná</label>
+        <label for="hub3"> <input type="radio" id="hub3" name="hub" value="sc"> Santa Catarina </label>
+
+        <!--Ao adicionar tipo radio, tem-se a seleção de uma UNICA opção para o mesmo name!-->
+        <!--Ao adiciionar label, permite-se que se clique em QUALQUER lugar dentro do input, não somente na caixa de seleção-->
     </form>
+
 </body>
 </html>
